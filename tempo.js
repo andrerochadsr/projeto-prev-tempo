@@ -23,6 +23,7 @@ async function climaAtual() {
     const humi = data['main']['humidity'];
     document.querySelector('.humidade').innerHTML += humi + "%";
 
+
 }
 climaAtual()
 
